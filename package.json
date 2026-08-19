@@ -1,0 +1,30 @@
+{
+  "name": "baloo",
+  "version": "1.0.0",
+  "description": "Baloo is a Discord Bot intended for personal use of a persistent Gateway WebSocket connection for server utilities and integration with external services.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertswynonna/Baloo.git"
+  },
+  "keywords": [],
+  "author": "Goldilocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertswynonna/Baloo/issues"
+  },
+  "homepage": "https://github.com/robertswynonna/Baloo#readme",
+  "dependencies": {
+    "discord-interactions": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
